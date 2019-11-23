@@ -1,0 +1,24 @@
+extends layout
+
+block content
+  nav.navbar.navbar-default(role='navigation')
+  // Brand and toggle get grouped for better mobile display
+  a.navbar-brand(href='#') Refrigeradoras
+  // Collect the nav links, forms, and other content for toggling
+  #bs-example-navbar-collapse-1.collapse.navbar-collapse
+    .col-sm-3.col-md-3
+      form.navbar-form(role='search')
+        .input-group
+          input.form-control(type='text' placeholder='Search' name='q')
+          .input-group-btn
+            button.btn.btn-default(type='submit' formmethod='GET')
+              i.glyphicon.glyphicon-search
+           
+  // /.navbar-collapse
+  main
+  .form-container
+    form(action='' method='get')
+      .container2
+        .agregar-nueva BORRAR
+        |                     Marca: 
+      button(type='submit' formmethod='post') Borrar

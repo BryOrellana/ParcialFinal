@@ -1,0 +1,35 @@
+{
+  "name": "refrigerador",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^8.2.0",
+    "express": "^4.16.4",
+    "http-errors": "~1.6.3",
+    "mongoose": "^5.7.12",
+    "morgan": "~1.9.1",
+    "node-sass-middleware": "0.11.0",
+    "pug": "^2.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  },
+  "description": "# Contenido - [Crear un RestFul con Express y MongoDB](#crear-un-restful-con-express-y-mongodb) - [Contenido](#contenido)   - [Definición](#definici%c3%b3n)     - [Ventajas](#ventajas)     - [Desventajas](#desventajas) - [Objetivo](#objetivo) - [Recursos necesarios](#recursos-necesarios) - [Preparando el entorno](#preparando-el-entorno)   - [Estructura de directorio](#estructura-de-directorio)   - [Una tonelada de librerías I](#una-tonelada-de-librer%c3%adas-i) - [Iniciando el proyecto](#iniciando-el-proyecto)   - [Instalación de express-generator](#instalaci%c3%b3n-de-express-generator) - [Creación de proyecto](#creaci%c3%b3n-de-proyecto) - [Conectando Express con MongoDB](#conectando-express-con-mongodb)   - [Conceptos básicos de MongoDB](#conceptos-b%c3%a1sicos-de-mongodb)   - [ODM... ¿qué?](#odm-%c2%bfqu%c3%a9)   - [Mongoose](#mongoose)   - [Instalando Moongose](#instalando-moongose)   - [Conexión con el servidor de MongoDB](#conexi%c3%b3n-con-el-servidor-de-mongodb)     - [Promesas VS Callbacks](#promesas-vs-callbacks)   - [Definiendo modelos en Mongoose](#definiendo-modelos-en-mongoose)     - [Modelo User](#modelo-user)     - [Modelo Post](#modelo-post) - [Creando controladores](#creando-controladores)   - [Creación UserController](#creaci%c3%b3n-usercontroller)     - [Buscar un usuario](#buscar-un-usuario)     - [Listar usuarios](#listar-usuarios)     - [Creación de un usuario](#creaci%c3%b3n-de-un-usuario)     - [Actualización de un usuario](#actualizaci%c3%b3n-de-un-usuario)     - [Eliminar un usuario](#eliminar-un-usuario)   - [Creación de PostController](#creaci%c3%b3n-de-postcontroller)   - [Incompleto](#incompleto) - [Añadiendo rutas](#a%c3%b1adiendo-rutas) - [Pruebas REST](#pruebas-rest)",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nexxtor/makeRestFul.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nexxtor/makeRestFul/issues"
+  },
+  "homepage": "https://github.com/Nexxtor/makeRestFul#readme"
+}
